@@ -52,3 +52,7 @@ handler: `src/index.handler`,
 ```
 
 it works. We need to use Webpack to bundle our Lambda though, so would really like to get it working via Webpack.
+
+### Workaround
+
+This workaround fixes it: https://github.com/thekevinbrown/graphqljs-instanceof-reproduction/blob/workaround/webpack.config.js#L9
